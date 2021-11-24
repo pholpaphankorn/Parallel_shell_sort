@@ -1,0 +1,20 @@
+# started on Wed Nov 24 16:51:06 2021
+
+
+ Performance counter stats for './a.out' (10 runs):
+
+    98,164,527,582      cpu-cycles                                                    ( +-  0.20% )  (28.95%)
+   105,417,172,814      instructions              #    1.07  insn per cycle           ( +-  0.22% )  (37.27%)
+       174,392,406      cache-references                                              ( +-  1.03% )  (37.47%)
+         3,956,264      cache-misses              #    2.269 % of all cache refs      ( +-  5.18% )  (37.19%)
+    51,614,320,939      dTLB-loads                                                    ( +-  0.29% )  (23.48%)
+        94,683,334      dTLB-load-misses          #    0.18% of all dTLB cache accesses  ( +-  1.50% )  (20.17%)
+     9,052,268,690      dTLB-stores                                                   ( +-  0.27% )  (18.37%)
+         1,687,686      dTLB-store-misses                                             ( +-  6.36% )  (18.22%)
+           312,380      iTLB-loads                                                    ( +- 22.50% )  (18.11%)
+           493,058      iTLB-load-misses          #  157.84% of all iTLB cache accesses  ( +- 10.94% )  (22.63%)
+     8,048,364,468      branch-loads                                                  ( +-  0.25% )  (28.58%)
+       385,529,476      branch-load-misses                                            ( +-  0.23% )  (28.70%)
+
+           11.9380 +- 0.0359 seconds time elapsed  ( +-  0.30% )
+

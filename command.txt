@@ -1,0 +1,1 @@
+sudo perf stat -o perf_4_thread_800000_wl_10_trials.txt -r 10 -e cpu-cycles,instructions,cache-references,cache-misses,dTLB-loads,dTLB-load-misses,dTLB-stores,dTLB-store-misses,iTLB-loads,iTLB-load-misses,branch-loads,branch-load-misses ./a.out
