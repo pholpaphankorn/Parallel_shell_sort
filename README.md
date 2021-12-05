@@ -1,4 +1,4 @@
-Parallel_shell_sort
+Computer Architecture Assignment - Parallel_shell_sort
 ===================
 
 C++ shell sort algorithm using parrallel processing with OpenMP.
